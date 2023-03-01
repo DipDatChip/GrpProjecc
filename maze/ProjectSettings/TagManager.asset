@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - tilemap
-  - 
+  - boundaries
   - 
   - 
   - 
@@ -38,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1050564691
+    locked: 0
   - name: tilemap
     uniqueID: 2902339087
     locked: 0
@@ -46,4 +50,7 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 2382206177
+    locked: 0
+  - name: UI
+    uniqueID: 578302853
     locked: 0
